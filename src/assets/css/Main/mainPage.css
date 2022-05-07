@@ -1,0 +1,36 @@
+.main_page_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.main_page_items {
+    display: block;
+    text-align: center;
+}
+
+.radio_container {
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.select_box_container {
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.selection_name {
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
+#url_input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1.2em;
+}
