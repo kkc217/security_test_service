@@ -1,9 +1,10 @@
 import React from "react";
+import "../../assets/css/Main/startTestButton.css";
 
 const StartTestButton = () => {
     return (
         <>
-            <input type="submit" value="테스트 시작"/>
+            <input className="input_submit" type="submit" value="START"/>
         </>
     )
 }
