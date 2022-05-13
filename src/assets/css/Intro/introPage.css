@@ -1,6 +1,9 @@
 .intro_page_container {
+    height: calc(100vh - 100px);
     text-align: center;
-    font-family: Impact, Charcoal, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .description_container {
@@ -14,4 +17,5 @@
 .test_link {
     text-decoration: none;
     font-size: 30px;
+    color: #393e46;
 }

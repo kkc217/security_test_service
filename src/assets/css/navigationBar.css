@@ -2,7 +2,9 @@
     font-family: Impact, Charcoal, sans-serif;
     display: flex;
     justify-content: space-between;
+    height: 60px;
     padding: 20px;
+    background-color: #393e46;
 }
 
 .nav_menu_container {
@@ -13,7 +15,8 @@
 
 .logo_link {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
+    color: #fff;
 }
 
 .menu_item {
@@ -30,4 +33,5 @@
 
 .login_menu {
     text-decoration: none;
+    color: #fff;
 }

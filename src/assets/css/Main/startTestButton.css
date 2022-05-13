@@ -1,6 +1,5 @@
 .input_submit {
-    font-family: Impact, Charcoal, sans-serif;
-    background:#1c3c3d;
+    background:#393e46;
     color:#fff;
     border:none;
     position:relative;
@@ -11,10 +10,9 @@
     transition:800ms ease all;
     outline:none;
     width: 200px;
-    /* margin: 0px 50px 0px 50px; */
 }
 
 .input_submit:hover {
     background:#fff;
-    color:#1c3c3d;
+    color:#393e46;
 }
