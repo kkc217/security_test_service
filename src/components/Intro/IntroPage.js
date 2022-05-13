@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
-import "../../assets/css/Main/introPage.css";
+import "../../assets/css/Intro/introPage.css";
 
 const IntroPage = () => {
     return (
