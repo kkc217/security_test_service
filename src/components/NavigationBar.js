@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import "../assets/css/Main/navigationBar.css";
+import "../assets/css/navigationBar.css";
 
 // const NavBarMenus = () => {
 //     return (
@@ -15,7 +15,7 @@ import "../assets/css/Main/navigationBar.css";
 const LoginMenu = () => {
     return (
         <div className="login_menu_container">
-            <Link to='' className="login_menu">Login</Link>
+            <Link to='/login' className="login_menu">Login</Link>
             <Link to='' className="login_menu">Join</Link>
         </div>
     )
