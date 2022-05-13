@@ -1,0 +1,17 @@
+.intro_page_container {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.description_container {
+    padding: 20px;
+}
+
+.test_description_container {
+    padding: 20px;
+}
+
+.test_link {
+    text-decoration: none;
+    font-size: 30px;
+}

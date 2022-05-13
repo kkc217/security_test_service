@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import IntroPage from './components/Intro/IntroPage';
 import MainPage from './components/Main/MainPage';
+import NavigationBar from './components/NavigationBar';
 // import logo from './logo.svg';
 // import './App.css';
-import NavigationBar from './components/NavigationBar';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <BrowserRouter>
         <NavigationBar/>
         <Routes>
-          <Route exact path='/' element={<MainPage/>} />
+          <Route exact path='/' element={<IntroPage/>} />
+          <Route exact path='/main' element={<MainPage/>} />
         </Routes>
       </BrowserRouter>
     </>
