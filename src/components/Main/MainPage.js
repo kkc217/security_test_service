@@ -1,7 +1,9 @@
 import React from 'react';
+
 import RadioButton from '../Constants/RadioButton';
 import SelectBox from '../Constants/SelectBox';
 import StartTestButton from './StartTestButton';
+
 import '../../assets/css/Main/mainPage.css';
 
 const MainPage = () => {
