@@ -1,0 +1,33 @@
+.navigation_container {
+    font-family: Impact, Charcoal, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav_menu_container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_link {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.menu_item {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.login_menu_container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.login_menu {
+    text-decoration: none;
+}
