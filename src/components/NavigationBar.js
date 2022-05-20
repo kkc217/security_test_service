@@ -16,7 +16,7 @@ const LoginMenu = () => {
     return (
         <div className="login_menu_container">
             <Link to='/login' className="login_menu">Login</Link>
-            <Link to='' className="login_menu">Join</Link>
+            <Link to='/join' className="login_menu">Join</Link>
         </div>
     )
 }
