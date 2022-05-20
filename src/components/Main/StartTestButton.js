@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../../assets/css/Main/startTestButton.css";
 
 const StartTestButton = () => {
     return (
         <>
-            <input className="input_submit" type="submit" value="START"/>
+            <Link to='/result' className="test_button">START</Link>
         </>
     )
 }

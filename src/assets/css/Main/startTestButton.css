@@ -1,18 +1,21 @@
-.input_submit {
-    background:#393e46;
+.test_button {
+    width: 200px;
+    height:40px;
+    background-color:#393e46;
     color:#fff;
+    text-decoration: none;
+    font-size:1.5em;
+
     border:none;
     position:relative;
-    height:40px;
-    font-size:1.5em;
     padding:0 2em;
     cursor:pointer;
-    transition:800ms ease all;
+    transition:500ms ease all;
     outline:none;
-    width: 200px;
+    border-radius: 5px;
 }
 
-.input_submit:hover {
+.test_button:hover {
     background:#fff;
     color:#393e46;
 }
