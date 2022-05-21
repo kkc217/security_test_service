@@ -1,5 +1,7 @@
 import React from "react";
 
+import StarRating from "../Constants/StarRating";
+
 import "../../assets/css/Result/resultPage.css";
 
 const ResultPage = () => {
@@ -16,11 +18,12 @@ const ResultPage = () => {
                         <td className="result_prop_text">Test Type</td>
                         <td>SQL Injection</td>
                     </tr>
-                    <tr>
-                        <td className="result_prop_text">security level</td>
-                        <td>https://www.aaa.bbbb</td>
-                    </tr>
                 </table>
+                <br/><br/>
+                <div className="star_container">
+                    <span className="result_prop_text" id="details_prop">Security Level</span>
+                    <StarRating count="5" value="3" size="40" />
+                </div>
                 <br/><br/>
                 <div className="details_container">
                     <span className="result_prop_text" id="details_prop">Details</span>
