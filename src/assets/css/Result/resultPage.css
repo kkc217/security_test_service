@@ -8,7 +8,6 @@
 }
 
 .result_page_container td{
-    text-align: center;
     padding: 10px;
     font-size: 1.2em;
     color: #afafaf;
@@ -17,6 +16,7 @@
 .result_page_container .result_prop_text, .result_prop_text {
     color: #393e46;
     font-size: 1.2em;
+    text-align: center;
 }
 
 .details_container {
