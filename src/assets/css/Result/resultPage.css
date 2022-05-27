@@ -1,5 +1,5 @@
 .result_page_container {
-    font-family: Impact, Charcoal, sans-serif;
+    /* font-family: Impact, Charcoal, sans-serif; */
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
