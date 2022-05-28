@@ -1,5 +1,4 @@
 .navigation_container {
-    /* font-family: Impact, Charcoal, sans-serif; */
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -25,13 +24,15 @@
 }
 
 .login_menu_container {
-    width: 100px;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
 }
 
 .login_menu {
+    padding: 10px;
+    height: 20px;
     text-decoration: none;
     color: #fff;
+    font-weight: lighter;
 }

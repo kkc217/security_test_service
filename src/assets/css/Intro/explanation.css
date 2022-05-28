@@ -14,17 +14,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* position: relative; */
+  align-items: center;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  /* padding: 20px; */
-  /* box-sizing: border-box; */
-  /* border-top: 1px solid #000; */
-  /* border-bottom: 1px solid #000; */
 }
 
 .chevron_down {
@@ -36,21 +29,24 @@
   padding: 0;
   margin: 0;
   border: 0;
-  /* height: 100%; */
 }
 
 #first_explain {
-  background-image: url('../../images/hacking-3112539_1920.png');
+  background-image: url('../../images/explain1.png');
   background-size: cover;
   color: #fff;
 }
 
 #second_explain {
-  background-color: blue;
+  background-image: url('../../images/explain2.png');
+  background-size: cover;
+  color: #fff;
 }
 
 #third_explain {
-  background-color: yellow;
+  background-image: url('../../images/explain3.png');
+  background-size: cover;
+  color: #000;
 }
 
 .explain_contents h1 {
@@ -61,5 +57,13 @@
 .explain_contents p {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.5em;
-  /* font-weight: 10; */
+  font-weight: bold;
+}
+
+.test_link {
+  padding-bottom: 20px;
+  width: 300px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #393e46;
 }

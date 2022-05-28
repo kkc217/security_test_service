@@ -3,19 +3,4 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.description_container {
-    padding: 20px;
-}
-
-.test_description_container {
-    padding: 20px;
-}
-
-.test_link {
-    text-decoration: none;
-    font-size: 30px;
-    color: #393e46;
 }
